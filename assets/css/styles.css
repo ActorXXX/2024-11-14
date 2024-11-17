@@ -27,7 +27,6 @@ header {
 }
 
 #cafecitos {
-    border: solid blue 1px;
     background-color: var(--dark);
     width: 60%;
     margin: 0 auto;
