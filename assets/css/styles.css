@@ -18,9 +18,27 @@ body {
     color: var(--white);
 }
 
+header {
+    height: 300px;
+    background-image: url('../images/bg-cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #cafecitos {
     border: solid blue 1px;
     background-color: var(--dark);
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    padding: 2em 0;
+    border-radius: 20px;
+    margin-top: -8em;
+    position: relative;
 }
 
 .cafe {
@@ -30,15 +48,14 @@ body {
 .price {
     background-color: var(--green);
     width: fit-content;
+    height: fit-content;
     border-radius: 4px;
-    padding: 6px 10px;
+    padding: 2px 10px;
     font-weight: 600;
     color: var(--darker);
 }
 
 .rating {
-    display: flex;
-    align-items: center;
 }
 
 /*.cardFooter {
@@ -50,5 +67,89 @@ body {
 .cardDescription {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 
+}
+
+.votes {
+    color: var(--gray);
+}
+
+.cardRating {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    
+}
+
+.cardRating :nth-child(4) {
+    width: 110px;
+    text-align: end;
+}
+
+
+.available {
+    padding-right: 0;
+    color: var(--red);
+}
+
+#encabezado {
+    width: 100%;
+}
+
+#ourCollection {
+    padding-top: 40px ;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: url(../images/vector.svg);
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ourCollection h1,p {
+    text-align: center;
+}
+
+#ourCollection p {
+    color: var(--gray);
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#botones button {
+    height: 3em;
+    width: 40%;
+    max-width: 120px;
+    background-color: var(--gray);
+    color: var(--white);
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.popular {
+    color: var(--darker);
+    background-color: var(--yellow);
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    position:absolute;
+    margin-left: 10px;
+    margin-top: -150px;
+}
+
+.image {
+    display: block;
+ }
+
+.cardHeader {
+    margin-bottom: 20px;
 }
