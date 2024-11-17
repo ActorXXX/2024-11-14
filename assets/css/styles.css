@@ -1,17 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --green: #BEE3CC;
+    --red: #ED735D;
+    --yellow: #F6C768;
+    --gray: #6F757C;
+    --darker: #111315;
+    --dark: #1B1D1F;
+    --white: #FEF7EE;
+}
+
 body {
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--darker);
+    color: var(--white);
 }
 
 #cafecitos {
     border: solid blue 1px;
+    background-color: var(--dark);
 }
 
-/*#cafecitos :nth-child(1) {
-    background-color: aquamarine;
+.cafe {
+    margin-bottom: 1em;
 }
 
-#cafecitos :nth-child(2) {
-    background-color: bisque;
+.price {
+    background-color: var(--green);
+    width: fit-content;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-weight: 600;
+    color: var(--darker);
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+/*.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }*/
+
+.cardDescription {
+    display: flex;
+    justify-content: space-between;
+
+}
