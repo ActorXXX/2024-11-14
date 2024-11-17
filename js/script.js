@@ -1,8 +1,8 @@
 const API ="https://raw.githubusercontent.com/devchallenges-io/web-project-ideas/main/front-end-projects/data/simple-coffee-listing-data.json"
 
-const star_blank = '../assets/icons/Star.svg'
+const star_blank = 'https://www.lomino.net.pe/img/star.svg'
 
-const star_fill = '../assets/icons/Star_Fill.svg'
+const star_fill = 'https://www.lomino.net.pe/img/star_fill.svg'
 
 let cafecitos = []
 
